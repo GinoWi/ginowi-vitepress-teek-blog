@@ -6,7 +6,7 @@ import { Nav } from "./config/Nav";
 export default defineConfig({
   title: "GinoWi Blog",
 
-  base: "/",
+  base: "/ginowi-vitepress-teek-blog",
 
   themeConfig: {
 
