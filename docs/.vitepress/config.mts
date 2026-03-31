@@ -6,6 +6,8 @@ import { Nav } from "./config/Nav";
 export default defineConfig({
   title: "GinoWi Blog",
 
+  base: "/",
+
   themeConfig: {
 
     logo: "/img/avatar.png",
