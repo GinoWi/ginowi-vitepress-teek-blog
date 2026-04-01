@@ -8,12 +8,12 @@
     <meta name="generator" content="VitePress v1.6.4">
     <link rel="preload stylesheet" href="/ginowi-vitepress-teek-blog/assets/style.B-hiXfTv.css" as="style">
     <link rel="preload stylesheet" href="/ginowi-vitepress-teek-blog/vp-icons.css" as="style">
-    <script type="module" src="/ginowi-vitepress-teek-blog/assets/chunks/metadata.d5e25c61.js"></script>
+    <script type="module" src="/ginowi-vitepress-teek-blog/assets/chunks/metadata.de0a4a3c.js"></script>
     <script type="module" src="/ginowi-vitepress-teek-blog/assets/app.vEdYFwNw.js"></script>
     <link rel="preload" href="/ginowi-vitepress-teek-blog/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
     <link rel="modulepreload" href="/ginowi-vitepress-teek-blog/assets/chunks/theme.BarmPgVT.js">
     <link rel="modulepreload" href="/ginowi-vitepress-teek-blog/assets/chunks/framework.6JFQ6gON.js">
-    <link rel="modulepreload" href="/ginowi-vitepress-teek-blog/assets/api-examples.md.C3an25cj.lean.js">
+    <link rel="modulepreload" href="/ginowi-vitepress-teek-blog/assets/api-examples.md.D1xzjG93.lean.js">
     <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
     <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
   </head>
@@ -57,7 +57,7 @@
     ></path>
     <path fill="currentColor" d="M480 256a32 32 0 0 1 32 32v256a32 32 0 0 1-64 0V288a32 32 0 0 1 32-32"></path>
     <path fill="currentColor" d="M480 512h256q32 0 32 32t-32 32H480q-32 0-32-32t32-32"></path>
-  </svg></i><a title="预计阅读时长" class="hover-color" aria-label="预计阅读时长">1.8m</a></div><!--v-if--></div></div><!--[--><!--]--><!--]--><!----><!----><!----><!--v-if--><!--v-if--><!--]--><!--]--><!--]--><main class="main" data-v-e309da65><div style="position:relative;" class="vp-doc _ginowi-vitepress-teek-blog_api-examples" data-v-e309da65><div><h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to &quot;Runtime API Examples&quot;">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="vp-code-group vp-adaptive-theme"><div class="tabs"><input type="radio" name="group-Ij5yy" id="tab-TIgbq-2" checked><label data-title="js" for="tab-TIgbq-2">js</label><input type="radio" name="group-Ij5yy" id="tab-wZ37J02"><label data-title="ts" for="tab-wZ37J02">ts</label></div><div class="blocks"><div class="language-js vp-adaptive-theme active"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> setup</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+  </svg></i><a title="预计阅读时长" class="hover-color" aria-label="预计阅读时长">1.8m</a></div><!--v-if--></div></div><!--[--><!--]--><!--]--><!----><!----><!----><!--v-if--><!--v-if--><!--]--><!--]--><!--]--><main class="main" data-v-e309da65><div style="position:relative;" class="vp-doc _ginowi-vitepress-teek-blog_api-examples" data-v-e309da65><div><h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to &quot;Runtime API Examples&quot;">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="vp-code-group vp-adaptive-theme"><div class="tabs"><input type="radio" name="group-FJCTK" id="tab-7ABK9xN" checked><label data-title="js" for="tab-7ABK9xN">js</label><input type="radio" name="group-FJCTK" id="tab-3KoawO5"><label data-title="ts" for="tab-3KoawO5">ts</label></div><div class="blocks"><div class="language-js vp-adaptive-theme active"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> setup</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">import { useData } from &#39;vitepress&#39;</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">const { theme, page, frontmatter } = useData()</span></span>
@@ -343,21 +343,26 @@
       &quot;items&quot;: [
         {
           &quot;text&quot;: &quot;文章分类&quot;,
-          &quot;link&quot;: &quot;/categories/&quot;
+          &quot;link&quot;: &quot;/categories/&quot;,
+          &quot;activeMatch&quot;: &quot;@pages/categoriesPage&quot;
         },
         {
           &quot;text&quot;: &quot;文章标签&quot;,
-          &quot;link&quot;: &quot;/tags/&quot;
+          &quot;link&quot;: &quot;/tags/&quot;,
+          &quot;activeMatch&quot;: &quot;@pages/tagsPage&quot;
         },
         {
           &quot;text&quot;: &quot;文章归档&quot;,
-          &quot;link&quot;: &quot;/archives/&quot;
+          &quot;link&quot;: &quot;/archives/&quot;,
+          &quot;activeMatch&quot;: &quot;@pages/archivesPage&quot;
         },
         {
           &quot;text&quot;: &quot;文章清单&quot;,
-          &quot;link&quot;: &quot;/articleOverview/&quot;
+          &quot;link&quot;: &quot;/articleOverview/&quot;,
+          &quot;activeMatch&quot;: &quot;@pages/articleOverviewPage&quot;
         }
-      ]
+      ],
+      &quot;activeMatch&quot;: &quot;@pages&quot;
     },
     {
       &quot;text&quot;: &quot;🌐站点信息&quot;,
@@ -435,10 +440,18 @@
   },
   &quot;permalinks&quot;: {
     &quot;map&quot;: {
-      &quot;00.目录页/01.计算机基础知识/01.数字电路-目录页&quot;: &quot;/01.计算机基础知识.html&quot;
+      &quot;00.目录页/01.计算机基础知识/01.数字电路-目录页&quot;: &quot;/01.计算机基础知识.html&quot;,
+      &quot;@pages/archivesPage&quot;: &quot;/archives.html&quot;,
+      &quot;@pages/articleOverviewPage&quot;: &quot;/articleOverview.html&quot;,
+      &quot;@pages/categoriesPage&quot;: &quot;/categories.html&quot;,
+      &quot;@pages/tagsPage&quot;: &quot;/tags.html&quot;
     },
     &quot;inv&quot;: {
-      &quot;/01.计算机基础知识.html&quot;: &quot;00.目录页/01.计算机基础知识/01.数字电路-目录页&quot;
+      &quot;/01.计算机基础知识.html&quot;: &quot;00.目录页/01.计算机基础知识/01.数字电路-目录页&quot;,
+      &quot;/archives.html&quot;: &quot;@pages/archivesPage&quot;,
+      &quot;/articleOverview.html&quot;: &quot;@pages/articleOverviewPage&quot;,
+      &quot;/categories.html&quot;: &quot;@pages/categoriesPage&quot;,
+      &quot;/tags.html&quot;: &quot;@pages/tagsPage&quot;
     }
   },
   &quot;docAnalysisInfo&quot;: {
@@ -502,6 +515,77 @@
   },
   &quot;posts&quot;: {
     &quot;allPosts&quot;: [
+      {
+        &quot;url&quot;: &quot;/@pages/archivesPage.html&quot;,
+        &quot;relativePath&quot;: &quot;/@pages/archivesPage.html&quot;,
+        &quot;frontmatter&quot;: {
+          &quot;title&quot;: &quot;归档&quot;,
+          &quot;permalink&quot;: &quot;/archives&quot;,
+          &quot;archivesPage&quot;: true,
+          &quot;layout&quot;: &quot;page&quot;,
+          &quot;article&quot;: false,
+          &quot;sidebar&quot;: false
+        },
+        &quot;author&quot;: {
+          &quot;name&quot;: &quot;GinoWi&quot;
+        },
+        &quot;title&quot;: &quot;归档&quot;,
+        &quot;date&quot;: &quot;2026-04-01 07:13:15&quot;,
+        &quot;capture&quot;: &quot;&quot;
+      },
+      {
+        &quot;url&quot;: &quot;/@pages/articleOverviewPage.html&quot;,
+        &quot;relativePath&quot;: &quot;/@pages/articleOverviewPage.html&quot;,
+        &quot;frontmatter&quot;: {
+          &quot;title&quot;: &quot;文章清单&quot;,
+          &quot;permalink&quot;: &quot;/articleOverview&quot;,
+          &quot;articleOverviewPage&quot;: true,
+          &quot;layout&quot;: &quot;page&quot;,
+          &quot;publishDateFormat&quot;: &quot;yyyy-MM-dd&quot;,
+          &quot;article&quot;: false,
+          &quot;sidebar&quot;: false
+        },
+        &quot;author&quot;: {
+          &quot;name&quot;: &quot;GinoWi&quot;
+        },
+        &quot;title&quot;: &quot;文章清单&quot;,
+        &quot;date&quot;: &quot;2026-04-01 07:13:30&quot;,
+        &quot;capture&quot;: &quot;&quot;
+      },
+      {
+        &quot;url&quot;: &quot;/@pages/categoriesPage.html&quot;,
+        &quot;relativePath&quot;: &quot;/@pages/categoriesPage.html&quot;,
+        &quot;frontmatter&quot;: {
+          &quot;title&quot;: &quot;分类&quot;,
+          &quot;permalink&quot;: &quot;/categories&quot;,
+          &quot;categoriesPage&quot;: true,
+          &quot;layout&quot;: &quot;home&quot;,
+          &quot;article&quot;: false
+        },
+        &quot;author&quot;: {
+          &quot;name&quot;: &quot;GinoWi&quot;
+        },
+        &quot;title&quot;: &quot;分类&quot;,
+        &quot;date&quot;: &quot;2026-04-01 07:15:38&quot;,
+        &quot;capture&quot;: &quot;&quot;
+      },
+      {
+        &quot;url&quot;: &quot;/@pages/tagsPage.html&quot;,
+        &quot;relativePath&quot;: &quot;/@pages/tagsPage.html&quot;,
+        &quot;frontmatter&quot;: {
+          &quot;title&quot;: &quot;标签&quot;,
+          &quot;permalink&quot;: &quot;/tags&quot;,
+          &quot;tagsPage&quot;: true,
+          &quot;layout&quot;: &quot;home&quot;,
+          &quot;article&quot;: false
+        },
+        &quot;author&quot;: {
+          &quot;name&quot;: &quot;GinoWi&quot;
+        },
+        &quot;title&quot;: &quot;标签&quot;,
+        &quot;date&quot;: &quot;2026-04-01 07:15:52&quot;,
+        &quot;capture&quot;: &quot;&quot;
+      },
       {
         &quot;url&quot;: &quot;/api-examples.html&quot;,
         &quot;relativePath&quot;: &quot;/api-examples.html&quot;,
@@ -701,7 +785,7 @@
       fill="currentColor"
       d="m199.04 672.64 193.984 112 224-387.968-193.92-112-224 388.032zm-23.872 60.16 32.896 148.288 144.896-45.696zM455.04 229.248l193.92 112 56.704-98.112-193.984-112-56.64 98.112zM104.32 708.8l384-665.024 304.768 175.936L409.152 884.8h.064l-248.448 78.336zm384 254.272v-64h448v64h-448z"
     ></path>
-  </svg></i><span>最近更新</span></div><ul><!--[--><li class="flx-center"><span class="tk-article-update--num" aria-hidden="true">01</span><div class="tk-article-update__content"><a href="/ginowi-vitepress-teek-blog/markdown-examples.html" class="flx-1 hover-color sle" aria-label="Markdown Extension Examples"><span class="tk-article-title" aria-label="文章标题"><!--v-if--><!--[--><!--[-->Markdown Extension Examples<!--]--><!--]--><!--v-if--></span></a><span class="tk-article-update__content--date">2026-03-26 08:16:42</span></div></li><li class="flx-center"><span class="tk-article-update--num" aria-hidden="true"></span><div class="tk-article-update__content"><!--v-if--><!--v-if--></div></li><!--]--></ul></div><!--[--><!--]--><!--]--><!--v-if--><!-- 评论区 --><!--v-if--><!--]--><!--]--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div><!--]--></div>
+  </svg></i><a href="/ginowi-vitepress-teek-blog/@pages/archivesPage.html" class="hover-color" aria-label="最近更新">最近更新</a></div><ul><!--[--><li class="flx-center"><span class="tk-article-update--num" aria-hidden="true">01</span><div class="tk-article-update__content"><a href="/ginowi-vitepress-teek-blog/markdown-examples.html" class="flx-1 hover-color sle" aria-label="Markdown Extension Examples"><span class="tk-article-title" aria-label="文章标题"><!--v-if--><!--[--><!--[-->Markdown Extension Examples<!--]--><!--]--><!--v-if--></span></a><span class="tk-article-update__content--date">2026-03-26 08:16:42</span></div></li><li class="flx-center"><span class="tk-article-update--num" aria-hidden="true"></span><div class="tk-article-update__content"><a href="/ginowi-vitepress-teek-blog/@pages/archivesPage.html" class="flx-1 hover-color sle" aria-label="更多文章 &gt;"><span class="tk-article-title" aria-label="文章标题"><!--v-if--><!--[--><!--[-->更多文章 &gt;<!--]--><!--]--><!--v-if--></span></a><!--v-if--></div></li><!--]--></ul></div><!--[--><!--]--><!--]--><!--v-if--><!-- 评论区 --><!--v-if--><!--]--><!--]--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div><!--]--></div>
     
     
   </body>
