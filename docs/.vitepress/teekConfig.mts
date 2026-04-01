@@ -68,25 +68,25 @@ export const teekConfig = defineTeekConfig({
 
     //站点统计
     siteAnalytics: [
-        {
-        provider: "google",
-        options: {
-            id: "******",
-        },
-        },
-        {
-        provider: "baidu",
-        options: {
-            id: "******",
-        },
-        },
-        {
-        provider: "umami",
-        options: {
-            id: "******",
-            src: "**",
-        },
-        },
+        // {
+        // provider: "google",
+        // options: {
+        //     id: "******",
+        // },
+        // },
+        // {
+        // provider: "baidu",
+        // options: {
+        //     id: "******",
+        // },
+        // },
+        // {
+        // provider: "umami",
+        // options: {
+        //     id: "******",
+        //     src: "**",
+        // },
+        // },
     ],
 
     //文章列表
@@ -121,9 +121,9 @@ export const teekConfig = defineTeekConfig({
     blogger: {
         name: "GinoWi", // 博主昵称
         slogan: "路是自己走出来的，无需羡慕他人的轨迹。", // 博主签名
-        avatar: "/img/avatar.png", // 博主头像
+        avatar: "./avatar.png", // 博主头像
         shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
-        circleBgImg: "/img/blogger-card-background.png", // 背景图片
+        circleBgImg: "./blogger-card-background.png", // 背景图片
         circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
         circleSize: 100, // 头像大小
         color: "#ffffff", // 字体颜色
@@ -154,7 +154,7 @@ export const teekConfig = defineTeekConfig({
         mask: false,
         name: "GinoWi Blog",
         bgStyle: "fullImg",
-        imgSrc: "/img/light-background-image.jpg",
+        imgSrc: "/src/light-background-image.jpg",
         imgInterval: 8000, // 轮播时间
         imgShuffle: false, // 当多张大图时（imgSrc 为数组），设置切换时间，单位：毫秒
         descStyle: "types",

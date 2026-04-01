@@ -10,7 +10,7 @@ export default defineConfig({
 
   themeConfig: {
 
-    logo: "/img/avatar.png",
+    logo: "./avatar.png",
 
     //导航栏信息
     nav: Nav,
