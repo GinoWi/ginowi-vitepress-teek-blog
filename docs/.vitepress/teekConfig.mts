@@ -154,7 +154,7 @@ export const teekConfig = defineTeekConfig({
         mask: false,
         name: "GinoWi Blog",
         bgStyle: "fullImg",
-        imgSrc: "/src/light-background-image.jpg",
+        imgSrc: "./light-background-image.jpg",
         imgInterval: 8000, // 轮播时间
         imgShuffle: false, // 当多张大图时（imgSrc 为数组），设置切换时间，单位：毫秒
         descStyle: "types",
