@@ -121,9 +121,9 @@ export const teekConfig = defineTeekConfig({
     blogger: {
         name: "GinoWi", // 博主昵称
         slogan: "路是自己走出来的，无需羡慕他人的轨迹。", // 博主签名
-        avatar: "./avatar.png", // 博主头像
+        avatar: "./avatar/avatar.png", // 博主头像
         shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
-        circleBgImg: "./blogger-card-background.png", // 背景图片
+        circleBgImg: "./blogCover/blogger-card-background.png", // 背景图片
         circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
         circleSize: 100, // 头像大小
         color: "#ffffff", // 字体颜色
@@ -154,9 +154,9 @@ export const teekConfig = defineTeekConfig({
         mask: false,
         name: "GinoWi Blog",
         bgStyle: "fullImg",
-        imgSrc: "./light-background-image.jpg",
         imgInterval: 8000, // 轮播时间
         imgShuffle: false, // 当多张大图时（imgSrc 为数组），设置切换时间，单位：毫秒
+        imgSrc: "/blogCover/light-background-image.jpg",
         descStyle: "types",
         textColor: "#ffffff", // Banner 字体颜色，bgStyle 为 default 时为 '#000000'，其他为 '#ffffff'
         titleFontSize: "3.2rem", // 标题字体大小
@@ -181,5 +181,29 @@ export const teekConfig = defineTeekConfig({
             // 检查同目录下前缀不同的文件（以同目录访问到的第一个文件的permalink的一级前缀作为基准）
             checkRewritesPrefix: true
         },
-    }
+
+        autoFrontmatter: true, // 自动生成 frontmatter
+        // autoFrontmatterOption: {
+        //     // 同名key覆盖
+        //     recoverTransform: false,
+        //     // 是否开启自动生成 categories
+        //     categories: true,
+        //     // 是否开启添加文档封面图
+        //     enableCoverImg: true,
+        //     // 是否开启强制覆盖封面图
+        //     enableForceCoverImg: true,
+        //     // 封面图列表
+        //     coverImgList: ['./light-background-image.jpg'],
+        //     // 是否开启生成永久链接
+        //     enablePermalink: false,
+        //     // 处理永久链接的规则
+        //     permalinkRules: [
+        //         //{ folderName: "01.指南/01.简介/", prefix: "/$path-$uuid2/teek/$uuid1/$uuid", removeLevel: 99 }, // 添加前缀
+        //         { folderName: "01.前端/01.vite",  removeLevel: 1 }
+        //     ],
+        //     // 是否开启处理时区
+        //     enableHandleTimezone: true
+        //  },
+    },
+    
 });
