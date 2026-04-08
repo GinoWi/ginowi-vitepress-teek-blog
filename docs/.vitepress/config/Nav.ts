@@ -9,25 +9,12 @@ export const Nav = [
     link: "/",
   },
   {
-    text: "⚙️计算机基础知识",
-    link: "01.计算机基础知识",
-  },
-  {
-    text: "💬人工智能",
+    text: "🖥计算机知识体系",
     items: [
-        { text: "Python", link: "02.人工智能技术/01.Python"},
-    ],
-  },
-  {
-    text: "🌏网络安全",
-    items: [
-
-    ],
-  },
-  {
-    text: "💾Java全栈",
-    items: [
-
+        { text: "⚙️计算机基础知识", link: "01.计算机基础知识" },
+        { text: "💬人工智能", link: "02.人工智能技术" },
+        { text: "🌏网络安全", link: "03.网络安全技术"},
+        { text: "💾Java全栈", link: "04.Java全栈开发技术"},
     ],
   },
   {
@@ -45,7 +32,13 @@ export const Nav = [
   {
     text: "🎹钢琴",
     items: [
-        
+
+    ],
+  },
+  {
+    text: "🧰工具资源",
+    items: [
+
     ],
   },
   {
