@@ -25,14 +25,14 @@ export const Nav = [
     link: "04.Java全栈开发技术",
   },
   {
-    text: "基础学科",
+    text: "📝基础学科",
     items: [
         { text: "📐数学", link: "05.数学" },
         { text: "📰英语", link: "06.英语" }
     ]
   },
   {
-    text: "生活",
+    text: "🚲生活",
     items: [
 
     ],
@@ -44,10 +44,10 @@ export const Nav = [
   {
     text: "👏功能页",
     items: [
-          { text: "文章分类", link: "/categories/" },
-          { text: "文章标签", link: "/tags/" },
-          { text: "文章归档", link: "/archives/" },
-          { text: "文章清单", link: "/articleOverview/" },
+          { text: "🗂文章分类", link: "/categories/" },
+          { text: "🏷文章标签", link: "/tags/" },
+          { text: "📎文章归档", link: "/archives/" },
+          { text: "🧾文章清单", link: "/articleOverview/" },
     ],
   },
   {
