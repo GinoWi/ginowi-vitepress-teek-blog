@@ -10,10 +10,15 @@ export default defineConfig({
 
   themeConfig: {
 
-    logo: "./avatar.png",
+    logo: "./avatar/avatar.png",
 
     //导航栏信息
     nav: Nav,
+
+    //文章大纲
+    outline: {
+      level: [2, 6],
+    }
   },
 
   extends: teekConfig,

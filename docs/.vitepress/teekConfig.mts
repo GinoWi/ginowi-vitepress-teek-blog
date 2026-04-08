@@ -205,5 +205,12 @@ export const teekConfig = defineTeekConfig({
         //     enableHandleTimezone: true
         //  },
     },
+
+    breadcrumb: {
+        enabled: true, // 是否启用面包屑
+        showCurrentName: true, // 面包屑最后一列是否显示当前文章的文件名
+        separator: "/", // 面包屑分隔符
+        homeLabel: "首页", // 鼠标悬停首页图标的提示文案
+    },
     
 });
