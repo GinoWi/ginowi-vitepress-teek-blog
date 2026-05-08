@@ -4,9 +4,9 @@ import { Nav } from "./config/Nav";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "GinoWi Blog",
+  title: "Jabin W's Blog",
 
-  base: "/ginowi-vitepress-teek-blog",
+  base: "/JabinWei-vitepress-teek-blog",
 
   themeConfig: {
 

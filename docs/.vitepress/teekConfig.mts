@@ -63,7 +63,7 @@ export const teekConfig = defineTeekConfig({
 
     //默认作者信息
     author: {
-        name: "GinoWi",
+        name: "Jabin W.",
     },
 
     //站点统计
@@ -119,7 +119,7 @@ export const teekConfig = defineTeekConfig({
 
     //博主信息
     blogger: {
-        name: "GinoWi", // 博主昵称
+        name: "Jabin W.", // 博主昵称
         slogan: "路是自己走出来的，无需羡慕他人的轨迹。", // 博主签名
         avatar: "./avatar/avatar.png", // 博主头像
         shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
@@ -152,7 +152,7 @@ export const teekConfig = defineTeekConfig({
     banner: {
         enabled: true,
         mask: false,
-        name: "GinoWi Blog",
+        name: "Jabin W's Blog",
         bgStyle: "fullImg",
         imgInterval: 8000, // 轮播时间
         imgShuffle: false, // 当多张大图时（imgSrc 为数组），设置切换时间，单位：毫秒
